@@ -1,0 +1,11 @@
+package pe.edu.galaxy.training.java.ejemplo;
+
+public class App02 {
+	public static void main(String[] args) {
+		operar(5, 10);
+	}
+
+	private static void operar(int a, int b) {
+		System.out.println(a + b);
+	}
+}

@@ -1,0 +1,8 @@
+package pe.edu.galaxy.training.java.ejemplo;
+
+public class App03 {
+	public static void main(String[] args) {
+		System.out.println(args.length);
+		System.out.println(args[0]);		
+	}
+}

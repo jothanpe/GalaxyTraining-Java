@@ -1,0 +1,14 @@
+package pe.edu.galaxy.training.java.ejemplo;
+
+public class App03 {
+	public static void main(String[] args) {
+		
+		System.out.println(args.length);
+		
+		if (args.length > 0) {
+			System.out.println(args[0]);
+		} else {
+			System.err.println("Por favor ingrese un valor");
+		}
+	}
+}
